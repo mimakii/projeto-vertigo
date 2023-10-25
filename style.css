@@ -10,6 +10,7 @@
 :root{
     --gray-800: #1e2938;
     --gray-600:#475569;
+    --purple: #7c3aed;
 }
 
 /* numero = 20 isso é uma variavel. Vamos criar uma avriavel que representa uma cor*/
@@ -47,6 +48,79 @@ main {
     font-size: 0.8125rem;
     color: var(--gray-600); 
 }
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login label {
+    font-size: 0.875rem;
+    color: var(--gray-800);
+    font-weight: 600;
+}
+
+
+
+.input-box div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.login a{
+    color: var(--purple);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.login a :hover {
+    text-decoration:underline
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 1 rem = 10 px 
 
