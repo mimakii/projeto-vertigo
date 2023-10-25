@@ -6,6 +6,15 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+
+:root{
+    --gray-800: #1e2938;
+    --gray-600:#475569;
+}
+
+/* numero = 20 isso é uma variavel. Vamos criar uma avriavel que representa uma cor*/
+
+
 header {
     background-image: url(./imagens/img.svg);
     background-size: cover;
@@ -13,6 +22,19 @@ header {
     display:flex;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 3.7rem;
+}
+
+main {
+    padding-inline: 1.5rem;
+}
+
+
+.descricao h1{
+    color: var(--gray-800);
+    margin-bottom: 1rem;
+    font-size: 1.5625rem;
 }
 
 /* 1 rem = 10 px 
@@ -20,3 +42,4 @@ header {
 ex: 40px = 40/16 = 2,5*/
 
 
+/* Nome da cor, rgb, rgba, hex etc varias maneiras de trabalhar com cor */
