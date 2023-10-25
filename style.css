@@ -9,5 +9,14 @@
 header {
     background-image: url(./imagens/img.svg);
     background-size: cover;
-    
+    height: 8.375rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/* 1 rem = 10 px 
+
+ex: 40px = 40/16 = 2,5*/
+
+
