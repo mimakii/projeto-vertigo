@@ -13,6 +13,7 @@
     --gray-400: #94a3b8;
     --gray-200: #e2e8f0;
     --purple: #7c3aed;
+    --light-purple:#9767ff;
     --white: #fff;
 
     
@@ -119,6 +120,14 @@ main {
     border-radius: 0.25rem;
 }
 
+
+.login button:hover{
+    background: var(--light-purple);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
 .login > p {
     color: var(--gray-600);
 }
@@ -146,6 +155,7 @@ main {
         margin: 2.5rem 7rem 7rem;
 
         height: fit-content;
+        
     }
 
     header img {
@@ -161,6 +171,9 @@ main {
 
     .conteudo{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 
@@ -169,6 +182,18 @@ main {
         display: block;
         width: 100%;
     }
+
+
+    .descricao h1{
+        font-size: 2.25rem;
+
+    }
+
+    .descricao p{
+        font-size: 1rem;
+    }
+
+    
 
 
 }
