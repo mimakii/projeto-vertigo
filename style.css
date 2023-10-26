@@ -148,6 +148,7 @@ main {
 @media(min-width: 1000px) {
     body{
         display: flex;
+        height: 100vh;
     }
     header{
         background: none;
@@ -183,6 +184,11 @@ main {
         width: 100%;
     }
 
+    .bg-desktop img {
+        display: block;
+        width: 736px;
+        height: 900px;
+    }
 
     .descricao h1{
         font-size: 2.25rem;
